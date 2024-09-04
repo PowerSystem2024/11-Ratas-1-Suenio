@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ba367aa-db4b-40c0-bb15-dc07e753f35f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../class-git" beforeDir="false" afterPath="$PROJECT_DIR$/../../class-git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_2/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_3/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_4/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_5/.idea/Ejercicio7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_5/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_6/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_7/.idea/Ejercicio_7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio_7/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion1/.idea/sonarlint/issuestore/c/d/cdec0e606a94c5418681d2b4fbe70c5dcbdb36d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion1/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion1/.idea/sonarlint/securityhotspotstore/c/d/cdec0e606a94c5418681d2b4fbe70c5dcbdb36d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion1/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/sonarlint/issuestore/3/8/38686148dbfe746ec1551af67e3712182e0c9402" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/sonarlint/issuestore/f/1/f1bdda93d9a278e358509d498e17d97764c1fb29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/sonarlint/securityhotspotstore/3/8/38686148dbfe746ec1551af67e3712182e0c9402" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/.idea/Leccion3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioRango.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioTuplasListas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../class-git" beforeDir="false" afterPath="$PROJECT_DIR$/../../../class-git" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/EjercicioRango.py" root0="SKIP_INSPECTION" />
@@ -31,6 +55,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2kckmlaXYsPlD60zI1Q1h7LmR4h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,13 +68,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "C:/Users/ignac/TecnicaturaGit/Python/Segundo Semestre/Leccion4/.venv/Scripts",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
 }]]></component>
-  <component name="RunManager" selected="Python.EjercicioTuplasListas">
+  <component name="RunManager" selected="Python.main">
     <configuration name="EjercicioRango" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leccion4" />
       <option name="ENV_FILES" value="" />
@@ -63,6 +89,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EjercicioRango.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -85,6 +121,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EjercicioTuplasListas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -103,10 +149,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\ignac\TecnicaturaGit\Python\Segundo Semestre\Leccion4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -116,6 +172,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.EjercicioRango" />
+      <item itemvalue="Python.EjercicioTuplasListas" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.EjercicioTuplasListas" />
@@ -126,7 +187,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-8336bb23522e-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19072.16" />
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
@@ -140,5 +201,11 @@
       <updated>1723590413660</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
