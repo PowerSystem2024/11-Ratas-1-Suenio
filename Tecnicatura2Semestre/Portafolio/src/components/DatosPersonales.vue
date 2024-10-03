@@ -4,8 +4,8 @@ const title = '11 Ratas un Sueño';
 const logo = [
   {id:0, name: 'Logo', src: '/src/assets/img/logo.png', url: 'f'},
   ];
-const descripcion = 'Tecnicatura Universitaria en Programación - UTN San Rafael';
-const presentacion = 'Bienvenidos a nuestro portafolio grupal.';
+const descripcion = 'Portafolio Web Grupal 11 Ratas Un Sueño';
+const presentacion = 'Grupo de ratas entusiastas con la meta de seguir aprendiendo y mejorando. Actualmente cursando la Tecnicatura Superior en Programación (TUP) en la Universidad Tecnológica Nacional (UTN) - FRSR, Argentina.';
 const residencia = 'Argentina';
 const telefono = '123456789';
 const redes = [
