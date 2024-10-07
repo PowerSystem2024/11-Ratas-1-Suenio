@@ -1,11 +1,11 @@
-package claseObjetos;
+package org.example.Clases;
 
 public class Persona {
-    //Atributos de Clases (Características)
-    String nombre;
-    String apellido;
+//    Atributos y la clase (Caracteristicas)
+    public String nombre;
+    public String apellido;
 
-    //Método de la clase (Acciones)
+//    Métodos de la clase (Acciones)
     public void obtenerInformacion(){
         System.out.println("Nombre: " + nombre);
         System.out.println("Apellido: " + apellido);
