@@ -1,4 +1,4 @@
-package org.example.claseCiclos.ejercicios;
+package claseCiclos.ejercicios;
 
 import java.util.Scanner;
 
@@ -31,5 +31,7 @@ public class EjerciciosCiclos05a {
         }while(num != aleatorio);
 
         System.out.println("Adivino el número en " + intentos + " intentos");
+
+        scanner.close();
     }
 }

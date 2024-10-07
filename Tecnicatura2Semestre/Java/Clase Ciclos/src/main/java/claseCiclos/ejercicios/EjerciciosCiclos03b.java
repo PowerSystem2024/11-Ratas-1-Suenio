@@ -1,4 +1,4 @@
-package org.example.claseCiclos.ejercicios;
+package claseCiclos.ejercicios;
 
 
 import javax.swing.*;
