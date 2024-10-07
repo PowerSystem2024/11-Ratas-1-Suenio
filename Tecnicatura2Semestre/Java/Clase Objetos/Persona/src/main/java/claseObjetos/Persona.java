@@ -1,4 +1,4 @@
-package org.example.Clases;
+package claseObjetos;
 
 public class Persona {
 //    Atributos y la clase (Caracteristicas)
