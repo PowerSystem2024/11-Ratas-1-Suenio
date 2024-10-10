@@ -2,7 +2,6 @@ package test;
 import org.example.Persona.Persona;
 
 public class PersonaPrueba {
-    private  int contador;
 
     public static void main(String[] args) {
         Persona persona1 = new Persona("Osvaldo", 57.000, false);

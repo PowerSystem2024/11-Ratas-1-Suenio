@@ -1,6 +1,6 @@
 package claseObjetos;
 
-import claseObjetos.Persona;
+// import claseObjetos.Persona;
 
 public class PasoPorReferencia {
     public static void main(String[] args) {
