@@ -1,4 +1,4 @@
-package org.example.ciclos12;
+package claseCiclos.ejercicios;
 
 import javax.swing.*;
 
@@ -6,7 +6,7 @@ import javax.swing.*;
 Ejercicio 12: Pedir un número y calcular su factorial
 JOptionPane
 */
-public class Ejercicio12 {
+public class EjerciciosCiclos12b {
     public static void main(String[] args) {
         int numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número: "));
 
