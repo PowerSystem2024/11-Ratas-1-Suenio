@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { ref } from 'vue';
 const fechaColor = ref([]);
@@ -13,23 +12,27 @@ fechaColor.value = [
 /*Esta es la forma de utilizar el arreglo, sin el metodo value*/
 const educacion = ref([
 {fecha: '2024', title: 'Técnicatura Universitaria en Programacion', descripcion: 'Incumbencias Profesionales: Operación y programación de computadoras, desarrollo de programas en distintos lenguajes, análisis y control de sistemas informáticos.', enlace:'https://www.youtube.com/'},
-{fecha: '2023', title: 'Desarrollador Full Stack', descripcion: 'Trabajé en XYZ Tech, donde diseñé y desarrollé aplicaciones web completas utilizando tecnologías como Node.js, React y MongoDB.', enlace:'http:www.direccion.com'},
-{fecha: '2022', title: 'Internship en Desarrollo Web', descripcion: 'Realicé una pasantía en ABC Solutions, contribuyendo en la creación de interfaces de usuario y optimización de sitios web.', enlace:'http:www.direccion.com'},
+{fecha: '2023', title: 'Data Analytics - Digital House', descripcion: 'Capacitate para utilizar cualquier volumen de datos (pequeño y grande) de forma eficaz, posibilitando la toma de decisiones informadas, seguras y confiables.'},
+{fecha: '2022', title: 'One - Oracle Next Education', descripcion: 'Aprendizaje de diferentes lenguajes de programación, además de la realización de varios proyectos.'},
 {fecha: '2021', title: 'Proyecto Personal - Aplicación de Gestión de Tareas', descripcion: 'Desarrollé una aplicación para la gestión de tareas diarias usando HTML, CSS y JavaScript, implementando funcionalidades como listas de tareas y recordatorios.', enlace:'http:www.direccion.com'},
 {fecha: '2020', title: 'Curso de Introducción a la Programación', descripcion: 'Completé un curso en línea sobre fundamentos de programación, donde aprendí lenguajes como Python y Java.', enlace:'http:www.direccion.com'}
 ]);
 </script>
 
 <template>
-    <ul>
-        <li v-for="(item, index) in educacion" :key="index" :style="{ '--fecha-color': fechaColor[index].color}">
-        <div class="fecha">{{ item.fecha }}</div>
-        <h3 class="title">{{ item.title }}</h3>
-        <div class="descripcion">{{ item.descripcion }}</div>
-        <!--Aqui vemos con el uso de b-vind (:) que bindeamos el atributo href de html con el item.enlace-->
-        <a class="enlace" :href="item.enlace" target="_blank">Saber más</a>
+  <ul>
+    <li
+      v-for="(item, index) in educacion"
+      :key="index"
+      :style="{ '--fecha-color': fechaColor[index].color }"
+    >
+      <div class="fecha">{{ item.fecha }}</div>
+      <h3 class="title">{{ item.title }}</h3>
+      <div class="descripcion">{{ item.descripcion }}</div>
+      <!--Aqui vemos con el uso de b-vind (:) que bindeamos el atributo href de html con el item.enlace-->
+      <a class="enlace" :href="item.enlace" target="_blank">Saber más</a>
     </li>
-    </ul>
+  </ul>
 </template>
 
 <style scoped>
@@ -55,12 +58,14 @@ body {
   padding: 2rem; /* Espaciado interno alrededor del cuerpo */
   font-family: "Poppins", sans-serif; /* Fuente para todo el texto en la página */
   color: var(--color); /* Aplica el color de texto definido en la variable */
-  background: var(--bgColor); /* Aplica el color de fondo definido en la variable */
+  background: var(
+    --bgColor
+  ); /* Aplica el color de fondo definido en la variable */
 }
 
 /* Estilos para la lista */
 ul {
-    margin-top: 2rem;
+  margin-top: 2rem;
   --col-gap: 2rem; /* Espacio entre las columnas de la cuadrícula */
   --row-gap: 2rem; /* Espacio entre las filas de la cuadrícula */
   --line-w: 0.25rem; /* Ancho de la línea que conecta los elementos de la lista */
@@ -69,7 +74,10 @@ ul {
   grid-auto-columns: max-content; /* Las columnas se ajustan automáticamente al contenido */
   column-gap: var(--col-gap); /* Espacio entre las columnas */
   list-style: none; /* Elimina las viñetas predeterminadas de la lista */
-  width: min(60rem, 90%); /* Limita el ancho de la lista al mínimo entre 60rem y el 90% del ancho de la ventana */
+  width: min(
+    60rem,
+    90%
+  ); /* Limita el ancho de la lista al mínimo entre 60rem y el 90% del ancho de la ventana */
   margin-inline: auto; /* Centra la lista horizontalmente */
 }
 
@@ -101,9 +109,13 @@ ul li {
 ul li .fecha {
   --dateH: 3rem; /* Altura de la sección de la fecha */
   height: var(--dateH); /* Aplica la altura definida */
-  margin-inline: calc(var(--inlineP) * -1); /* Ajusta el margen horizontal para que la fecha sobresalga */
+  margin-inline: calc(
+    var(--inlineP) * -1
+  ); /* Ajusta el margen horizontal para que la fecha sobresalga */
   text-align: center; /* Centra el texto dentro de la fecha */
-  background-color: var(--fecha-color); /* Color de fondo, usando una variable personalizada */
+  background-color: var(
+    --fecha-color
+  ); /* Color de fondo, usando una variable personalizada */
   color: white; /* Color del texto en la fecha */
   font-size: 1.25rem; /* Tamaño del texto */
   font-weight: 700; /* Hace el texto en negrita */
@@ -119,10 +131,17 @@ ul li .fecha::before {
   width: var(--inlineP); /* Ancho igual al espacio interno definido */
   aspect-ratio: 1; /* Mantiene una relación de aspecto 1:1 para crear un cuadrado */
   background: var(--fecha-color); /* Usa el color de fondo de la fecha */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent); /* Aplica un degradado sutil para dar un efecto de sombra */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2) 100%,
+    transparent
+  ); /* Aplica un degradado sutil para dar un efecto de sombra */
   position: absolute; /* Posiciona el triángulo respecto al contenedor de la fecha */
   top: 100%; /* Coloca el triángulo justo debajo de la fecha */
-  clip-path: polygon(0 0, 100% 0, 0 100%); /* Recorta el cuadrado para convertirlo en un triángulo */
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    0 100%
+  ); /* Recorta el cuadrado para convertirlo en un triángulo */
   right: 0; /* Alinea el triángulo a la derecha de la fecha */
 }
 
@@ -132,18 +151,27 @@ ul li .fecha::after {
   position: absolute; /* Posiciona el círculo respecto al contenedor de la fecha */
   width: 1rem; /* Ancho del círculo */
   aspect-ratio: 1; /* Mantiene una relación de aspecto 1:1 para crear un círculo */
-  background: var(--bgColor); /* Color de fondo, utilizando la variable definida */
+  background: var(
+    --bgColor
+  ); /* Color de fondo, utilizando la variable definida */
   border: 0.3rem solid var(--fecha-color); /* Borde del círculo, con el color de la fecha */
   border-radius: 50%; /* Hace que el elemento sea un círculo perfecto */
   top: 50%; /* Centra verticalmente el círculo dentro del contenedor de la fecha */
-  transform: translate(50%, -50%); /* Ajusta la posición del círculo para alinearlo correctamente */
-  right: calc(100% + var(--col-gap) + var(--line-w) / 2); /* Coloca el círculo a la izquierda de la línea */
+  transform: translate(
+    50%,
+    -50%
+  ); /* Ajusta la posición del círculo para alinearlo correctamente */
+  right: calc(
+    100% + var(--col-gap) + var(--line-w) / 2
+  ); /* Coloca el círculo a la izquierda de la línea */
 }
 
 /* Estilos para el título y la descripción dentro de cada ítem */
 ul li .title,
 ul li .descripcion {
-  background: var(--bgColor); /* Fondo del título y la descripción, usando la variable definida */
+  background: var(
+    --bgColor
+  ); /* Fondo del título y la descripción, usando la variable definida */
   position: relative; /* Posiciona los elementos relativos a su contenedor */
   padding-inline: 1.5rem; /* Espaciado interno horizontal */
 }
@@ -167,11 +195,19 @@ ul li .descripcion::before {
   position: absolute; /* Posiciona la sombra respecto al contenedor del título o descripción */
   width: 90%; /* Ancho de la sombra */
   height: 0.5rem; /* Altura de la sombra */
-  background: rgba(0, 0, 0, 0.5); /* Color de fondo oscuro para simular una sombra */
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Color de fondo oscuro para simular una sombra */
   left: 50%; /* Centra la sombra horizontalmente */
   border-radius: 50%; /* Bordes redondeados para la sombra */
   filter: blur(4px); /* Aplica un desenfoque para hacer la sombra más suave */
-  transform: translate(-50%, 50%); /* Ajusta la posición para centrar la sombra */
+  transform: translate(
+    -50%,
+    50%
+  ); /* Ajusta la posición para centrar la sombra */
 }
 
 ul li .title::before {
@@ -180,44 +216,52 @@ ul li .title::before {
 
 ul li .descripcion::before {
   z-index: -1; /* Coloca la sombra detrás del contenido */
-bottom: 0.25rem; /* Coloca la sombra justo*/
+  bottom: 0.25rem; /* Coloca la sombra justo*/
 }
-
 
 /* Media query para pantallas anchas (40rem o más) */
 @media (min-width: 40rem) {
-ul {
+  ul {
     grid-template-columns: 1fr var(--line-w) 1fr; /* Ajusta la cuadrícula para tener tres columnas */
-}
-ul::before {
+  }
+  ul::before {
     grid-column: 2; /* Mueve la línea vertical a la segunda columna de la cuadrícula */
-}
-ul li:nth-child(odd) {
+  }
+  ul li:nth-child(odd) {
     grid-column: 1; /* Coloca los ítems impares en la primera columna */
-}
-ul li:nth-child(even) {
+  }
+  ul li:nth-child(even) {
     grid-column: 3; /* Coloca los ítems pares en la tercera columna */
-}
+  }
 
   /* Ajuste para que el segundo ítem abarque dos filas */
-ul li:nth-child(2) {
+  ul li:nth-child(2) {
     grid-row: 2/4; /* El segundo ítem ocupará desde la segunda hasta la cuarta fila */
-}
+  }
 
   /* Ajustes específicos para los ítems impares */
-ul li:nth-child(odd) .fecha::before {
-    clip-path: polygon(0 0, 100% 0, 100% 100%); /* Invierte el triángulo en los ítems impares */
+  ul li:nth-child(odd) .fecha::before {
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%
+    ); /* Invierte el triángulo en los ítems impares */
     left: 0; /* Alinea el triángulo a la izquierda */
-}
+  }
 
-ul li:nth-child(odd) .fecha::after {
-    transform: translate(-50%, -50%); /* Ajusta la posición del círculo en los ítems impares */
-    left: calc(100% + var(--col-gap) + var(--line-w) / 2); /* Coloca el círculo a la derecha de la línea */
-}
+  ul li:nth-child(odd) .fecha::after {
+    transform: translate(
+      -50%,
+      -50%
+    ); /* Ajusta la posición del círculo en los ítems impares */
+    left: calc(
+      100% + var(--col-gap) + var(--line-w) / 2
+    ); /* Coloca el círculo a la derecha de la línea */
+  }
 
-ul li:nth-child(odd) .fecha {
+  ul li:nth-child(odd) .fecha {
     border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0; /* Ajusta los bordes redondeados para los ítems impares */
-}
+  }
 }
 
 /* Estilo para los créditos */

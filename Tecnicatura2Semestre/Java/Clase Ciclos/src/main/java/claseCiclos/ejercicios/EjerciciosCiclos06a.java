@@ -1,4 +1,4 @@
-package org.example.claseCiclos.ejercicios;
+package claseCiclos.ejercicios;
 
 import java.util.Scanner;
 /*
@@ -18,5 +18,7 @@ public class EjerciciosCiclos06a {
             num = Integer.parseInt(scanner.nextLine());
         }
         System.out.println("La suma de todos los números ingresados es: " + suma);
+
+        scanner.close();
     }
 }

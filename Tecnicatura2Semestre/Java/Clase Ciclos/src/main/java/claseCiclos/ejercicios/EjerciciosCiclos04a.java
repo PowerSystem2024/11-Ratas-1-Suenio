@@ -1,4 +1,4 @@
-package org.example.claseCiclos.ejercicios;
+package claseCiclos.ejercicios;
 
 import java.util.Scanner;
 
@@ -19,5 +19,7 @@ public class EjerciciosCiclos04a {
             num = Integer.parseInt(scanner.nextLine());
         }while(num > 0);
         System.out.println("La cantidad de números ingresados es de " + cant);
+
+        scanner.close();
     }
 }
