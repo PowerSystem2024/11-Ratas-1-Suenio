@@ -1,4 +1,4 @@
-package org.example.claseCiclos.ejercicios;
+package claseCiclos.ejercicios;
 
 import java.util.Scanner;
 
@@ -23,5 +23,6 @@ public class EjerciciosCiclos03a {
             num = Integer.parseInt(scanner.nextLine());
         }while(num != 0);
         System.out.println("Programa finalizado");
+        scanner.close();
     }
 }

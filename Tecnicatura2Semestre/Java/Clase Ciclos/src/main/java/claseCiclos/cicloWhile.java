@@ -1,4 +1,4 @@
-package org.example.claseCiclos;
+package claseCiclos;
 
 public class cicloWhile {
     public static void main(String[] args){

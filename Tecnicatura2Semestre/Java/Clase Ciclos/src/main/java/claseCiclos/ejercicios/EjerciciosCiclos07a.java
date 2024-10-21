@@ -1,4 +1,4 @@
-package org.example.claseCiclos.ejercicios;
+package claseCiclos.ejercicios;
 
 import java.util.Scanner;
 
@@ -24,5 +24,7 @@ public class EjerciciosCiclos07a {
 
         media = suma/cont;
         System.out.println("La media de todos los numeros ingresados es de: " + media);
+
+        scanner.close();
     }
 }
