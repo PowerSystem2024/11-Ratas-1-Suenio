@@ -5,6 +5,7 @@ import Educacion from './components/EducacionComponente.vue';
 import Experiencia from "./components/ExperienciaComponente.vue";
 import ProyectosComponente from './components/ProyectosComponente.vue';
 import HabilidadesComponente from './components/HabilidadesComponente.vue';
+import InteresesComponente from './components/InteresesComponente.vue';
 </script>
 
 <template>
@@ -33,10 +34,22 @@ import HabilidadesComponente from './components/HabilidadesComponente.vue';
         <HabilidadesComponente />
     </section>
 
-    <section id="intereses"><h2>Intereses</h2></section>
+    <section id="intereses">
+      <h2>Intereses</h2></section>
+      <InteresesComponente />
   </main>
+  <footer>
+        <a href="#top">Inicio</a>
+        <p>© 2024 11 Ratas 1 Sueño - Portafolio Grupal web - tutorial UTN FRSR</p>
+    </footer>
 </template>
 
 <style scoped>
-
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
 </style>
