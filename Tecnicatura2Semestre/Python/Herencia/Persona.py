@@ -17,6 +17,8 @@ class Persona(object): # esta clase hereda la clase object
     def edad(self, edad):
         self._edad = edad
     
+    def __str__(self): #override = sobre escribir
+        return f"persona: [Nombre: {self._nombre}, Edad: {self._edad}]"
     
 class Empleado(Persona): ## esta clase es hija de la clase persona
     def __init__(self, nombre, edad, sueldo):
@@ -29,6 +31,9 @@ class Empleado(Persona): ## esta clase es hija de la clase persona
     @sueldo.setter
     def sueldo(self, sueldo):
         self._sueldo = sueldo
+
+    def __str__(self):
+        return f"Empleado: [Sueldo: {self._sueldo}]{super().__str__}"
         
         
 print("empleado1".center(30, "-"))
@@ -49,6 +54,3 @@ empleado2.sueldo = 60000
 print(empleado2.nombre)
 print(empleado2.edad)
 print(empleado2.sueldo)
-
-
-#siguiente 11.5 Método dunder __str__()
