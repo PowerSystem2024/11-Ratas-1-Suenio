@@ -8,6 +8,7 @@ Universidad Tecnológica de San Rafael, Mendoza, Argentina.
 - Ignacio Noguerol
 - Christian Bonilla
 - Daiana Jaldin
+- Augusto Vernengo
 - Ignacio Ibañez
 # ¿Quiénes Somos?
 Un grupo de ratas entusiastas con la meta de seguir aprendiendo y mejorando, con el sueño de ser los mejores programadores.
