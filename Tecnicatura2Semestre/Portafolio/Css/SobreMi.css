@@ -1,0 +1,55 @@
+.sobremi{
+    display: flex;
+    justify-content: center;
+}
+.container-sobremi{
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgb(29, 0, 61);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(71, 3, 197);
+}
+.container-sobremi h2 {
+    text-align: justify; 
+    color: rgb(111, 0, 255);
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+    text-shadow: 3px 3px 15px rgb(71, 3, 197);
+}
+.img-perfil {  /*foto del perfil circular*/
+    border-radius: 35%;
+    box-shadow: 3px 3px 3px rgb(71, 3, 197);
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+
+/*celular (pantalla pequeña, hasta 767px)*/
+@media (max-width: 767px) {
+    .container-sobremi {
+        width: 100%;
+        padding: 1;
+        margin-top: 1rem;
+        line-height: 2.5rem;
+        font-size: small;
+        flex-direction: column;
+    }
+}
+/* tableta (pantalla medianas, entre 768 y 1023 px) */
+@media (min-width: 768px) and (max-width: 1023px){
+    .container-sobremi{
+        width: 75%;
+    }
+}
+
+/* escritorio (pantallas anchas, 1024px y superiores) */
+@media (min-width: 1024px){
+    .container-sobremi{
+        width: 50%
+    }
+}

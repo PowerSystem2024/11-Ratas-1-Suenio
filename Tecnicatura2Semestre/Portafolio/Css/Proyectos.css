@@ -1,0 +1,90 @@
+.titulo-proyecto {
+    color: rgb(119, 0, 255);
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+.proyectos {
+    padding: 1rem;
+    background: var(--fondo-proyectos);
+    color: rgb(119, 0, 255);
+    font-family: sans-serif;
+}
+
+/* Contenedor general */
+.galeria-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Contenedor del proyecto en general */
+.proyecto {
+    background-color: rgb(29, 0, 61);
+    border: 3px solid rgb(71, 3, 197);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 12px rgb(71, 3, 197);
+    text-align: center;
+    width: calc(25% - 2rem); /* Ajusta el ancho inicial para pantallas grandes */
+    max-width: 300px; /* Limita el tamaño máximo del contenedor */
+}
+
+/* Imagen del proyecto */
+.proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Título del proyecto */
+.proyecto h3 {
+    margin-top: 10px;
+    font-size: 1.2rem; 
+}
+
+/* Descripción del proyecto */
+.proyecto p {
+    margin: 10px 0;
+}
+
+/* Botones de enlace */
+.proyecto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: rgb(39, 2, 107);
+    color: #8400ff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.proyecto a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+/* Media queries para responsividad */
+
+/* Pantallas pequeñas (celulares) */
+@media (max-width: 767px) {
+    .proyecto {
+        width: calc(100% - 2rem);
+    }
+}
+
+/* Pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .proyecto {
+        width: calc(50% - 2rem);
+    }
+}
+
+/* Pantallas grandes (desktop) */
+@media (min-width: 1024px) {
+    .proyecto {
+        width: calc(25% - 2rem);
+    }
+}
