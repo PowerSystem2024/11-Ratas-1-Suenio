@@ -9,5 +9,6 @@ Universidad Tecnológica de San Rafael, Mendoza, Argentina.
 - Christian Bonilla
 - Daiana Jaldin
 - Ignacio Ibañez
+- Augusto Vernengo
 # ¿Quiénes Somos?
 Un grupo de ratas entusiastas con la meta de seguir aprendiendo y mejorando, con el sueño de ser los mejores programadores.
