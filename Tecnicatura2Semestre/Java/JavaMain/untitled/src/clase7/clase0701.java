@@ -3,7 +3,7 @@ Ejercicio 11: Diseñar un programa que muestre un producto
 que mestre los 10 primeros numeros impares
 hacer con JOptionPane
  */
-
+//ciclos11
 package clase7;
 
 import javax.swing.*;
