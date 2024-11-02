@@ -1,6 +1,7 @@
 package test;
 import domain.Empleado;
 import domain.Cliente;
+import domain.Persona;
 
 import java.util.Date;
 
@@ -13,5 +14,7 @@ public class TestHerencia {
 
     Cliente cliente1 = new Cliente("Pepito", new Date(), false);
     System.out.println("cliente1 = " + cliente1);
+
+    Persona persona1 = new Persona();
   }
 }
