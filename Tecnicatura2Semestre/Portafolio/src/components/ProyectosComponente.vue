@@ -1,11 +1,14 @@
 <script setup>
+
+import imgProyecto from '@/assets/img/rata.webp';
+
 const PROYECTOS = [
-  {id: 1, name: 'Proyecto 1', src: 'src/assets/img/rata.webp', description: 'Ejemplo de proyecto creado.', url: '#' },
-  {id: 2, name: 'Proyecto 2', src: 'src/assets/img/rata.webp', description: 'Ejemplo de proyecto creado.', url: '#' },
-  {id: 3, name: 'Proyecto 3', src: 'src/assets/img/rata.webp', description: 'Ejemplo de proyecto creado.', url: '#' },
-  {id: 4, name: 'Proyecto 4', src: 'src/assets/img/rata.webp', description: 'Ejemplo de proyecto creado.', url: '#' },
-  {id: 5, name: 'Proyecto 5', src: 'src/assets/img/rata.webp', description: 'Ejemplo de proyecto creado.', url: '#' },
-  {id: 6, name: 'Proyecto 6', src: 'src/assets/img/rata.webp', description: 'Ejemplo de proyecto creado.', url: '#' },
+  {id: 1, name: 'Proyecto 1', src: imgProyecto, description: 'Ejemplo de proyecto creado.', url: '#' },
+  {id: 2, name: 'Proyecto 2', src: imgProyecto, description: 'Ejemplo de proyecto creado.', url: '#' },
+  {id: 3, name: 'Proyecto 3', src: imgProyecto, description: 'Ejemplo de proyecto creado.', url: '#' },
+  {id: 4, name: 'Proyecto 4', src: imgProyecto, description: 'Ejemplo de proyecto creado.', url: '#' },
+  {id: 5, name: 'Proyecto 5', src: imgProyecto, description: 'Ejemplo de proyecto creado.', url: '#' },
+  {id: 6, name: 'Proyecto 6', src: imgProyecto, description: 'Ejemplo de proyecto creado.', url: '#' },
 ]
 
 </script>
@@ -33,17 +36,18 @@ const PROYECTOS = [
     overflow: auto;
 
     .lista-proyectos{
-      padding: 0;
+      padding: 2.5rem 1rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
+      gap: 3rem;
 
       .item-proyecto{
         background-color: rgba(19, 18, 18, 0.822);
         padding: 20px 15px;
         border-radius: 10px;
-        margin: 40px 30px;
+        width: 210px;
 
         img{
           height: 120px;

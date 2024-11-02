@@ -1,10 +1,15 @@
 <script setup>
 
+import java from '@/assets/icons/java.svg';
+import python from '@/assets/icons/python.svg';
+import vue from '@/assets/icons/vue.svg';
+import git from '@/assets/icons/git.svg';
+
   const HABILIDADES = [
-    {id: 1, nombre: "Java", src: "src/assets/icons/java.svg"},
-    {id: 2, nombre: "Python", src: "src/assets/icons/python.svg"},
-    {id: 3, nombre: "Vue", src: "src/assets/icons/vue.svg"},
-    {id: 4, nombre: "Git", src: "src/assets/icons/git.svg"},
+    {id: 1, nombre: "Java", src: java},
+    {id: 2, nombre: "Python", src: python},
+    {id: 3, nombre: "Vue", src: vue},
+    {id: 4, nombre: "Git", src: git},
   ]
 
   const IDIOMAS = [
@@ -18,8 +23,8 @@
   <div class="contendor_habilidades">
     <ul class="habilidades_lista">
       <li class="habilidad" v-for="habilidad in HABILIDADES" :key="HABILIDADES.id">
-        <h3>{{ habilidad.nombre }}</h3>
         <img :src="habilidad.src" alt="Icono tecnología">
+        <h3>{{ habilidad.nombre }}</h3>
       </li>
     </ul>
   </div>

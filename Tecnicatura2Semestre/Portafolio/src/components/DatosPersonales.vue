@@ -1,18 +1,24 @@
 <script setup>
 
+import logoImg from '@/assets/img/logo.png';
+import linkedin from '@/assets/img/linkedin.png';
+import instagram from '@/assets/img/instagram.png';
+import github from '@/assets/img/github.png';
+import curriculum from '@/assets/img/cv.png';
+
 const title = '11 Ratas un Sueño';
 const logo = [
-  {id:0, name: 'Logo', src: '/src/assets/img/logo.png', url: 'f'},
+  {id:0, name: 'Logo', src: logoImg, url: 'f'},
   ];
 const descripcion = 'Portafolio Web Grupal 11 Ratas Un Sueño';
 const presentacion = 'Grupo de ratas entusiastas con la meta de seguir aprendiendo y mejorando. Actualmente cursando la Tecnicatura Superior en Programación (TUP) en la Universidad Tecnológica Nacional (UTN) - FRSR, Argentina.';
 const residencia = 'Argentina';
 const telefono = '123456789';
 const redes = [
-  {id:1, name: 'Linkedin', src: '/src/assets/img/linkedin.png', url: 'f'},
-  {id:1, name: 'Instagram', src: '/src/assets/img/instagram.png', url: 'f'},
-  {id:1, name: 'GitHub', src: '/src/assets/img/github.png', url: 'f'},
-  {id:1, name: 'Curriculum', src: '/src/assets/img/cv.png', url: 'f'}
+  {id:1, name: 'Linkedin', src: linkedin, url: 'f'},
+  {id:1, name: 'Instagram', src: instagram, url: 'f'},
+  {id:1, name: 'GitHub', src: github, url: 'f'},
+  {id:1, name: 'Curriculum', src: curriculum, url: 'f'}
 ];
 
 </script>
