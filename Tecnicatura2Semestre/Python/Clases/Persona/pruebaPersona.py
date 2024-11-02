@@ -1,4 +1,4 @@
-from Persona2 import Persona2
+from Clases.Persona.Persona2 import Persona2
 
 print("creacion de objetos".center(123, "-"))
 
