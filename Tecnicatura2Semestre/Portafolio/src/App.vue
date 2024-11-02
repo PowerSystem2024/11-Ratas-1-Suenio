@@ -35,8 +35,9 @@ import InteresesComponente from './components/InteresesComponente.vue';
     </section>
 
     <section id="intereses">
-      <h2>Intereses</h2></section>
+      <h2>Intereses</h2>
       <InteresesComponente />
+    </section>
   </main>
   <footer>
         <a href="#top">Inicio</a>
