@@ -10,3 +10,5 @@ if __name__ == "__main__":
 
 print("eliminacion de objetos".center(123, "-"))
 del persona5
+
+#clase 9 lo que sigue poo
