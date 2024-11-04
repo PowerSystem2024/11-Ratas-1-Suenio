@@ -1,4 +1,5 @@
 from Python.Persona.Persona2 import Persona2
+# para eleer la tarea de la clase 11
 
 print("creacion de objetos".center(123, "-"))
 

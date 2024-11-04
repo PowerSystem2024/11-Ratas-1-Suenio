@@ -48,7 +48,7 @@ if __name__ == "__main__":
     # traer crear tres objetos mas, utilizando los metodos getter and setter
     # para modificar, y mostrar los cambios
 
-    #tarea de clase 11
+    #tarea de clase 11.
 
     persona2 = Persona2("lores", "romero", 23)
     persona2.nombre = "flores"
@@ -76,5 +76,3 @@ if __name__ == "__main__":
     print(persona4.apellido)
     print(persona4.edad)
     print(persona4.mostrar_detalles())
-
-    
