@@ -1,10 +1,11 @@
+"""
+crear una clase llamada rectangulo, debe tener 2 atributos: altura y base
+el nombre del metodo será calcular_area utilizado la formula:
+area = base * altura. pero la base y la altura debe ser ingresadas 
+por el usuario y los objetos deben ser tres
+"""
 class rectangulo1:
-    """
-    crear una clase llamada rectangulo, debe tener 2 atributos: altura y base
-    el nombre del metodo será calcular_area utilizado la formula:
-    area = base * altura. pero la base y la altura debe ser ingresadas 
-    por el usuario y los objetos deben ser tres
-    """
+    
     def __init__(self, altura, base):
         self.altura = altura
         self.base = base
